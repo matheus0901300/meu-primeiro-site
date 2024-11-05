@@ -42,4 +42,40 @@ h1{
     margin-right: 1em;
 }
 
+.principal-capa{
+    display: flex;
+    background-color: var(--azul3);
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.principal-capa__titulo{
+    font-size: 1.5em;
+    font-family: var(--fonte-titulo);
+}
+
+.principal-capa__texto{
+    font-size: 2em; 
+}
+
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-capa__botao{
+    background-color: var(--azul3);
+    color: var(--azul2)
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 1.3em;
+    width: 50%;
+    text-decoration: none;
+    borber-radius: 10px;
+}
+
+
+
+
 
